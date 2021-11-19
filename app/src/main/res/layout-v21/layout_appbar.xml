@@ -2,6 +2,7 @@
 
 <com.google.android.material.appbar.AppBarLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/lin"
@@ -33,6 +34,16 @@
         android:layout_below="@id/action_bar"
         >
 
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="buttonTest"
+            android:text="Button"
+            app:layout_anchor="@+id/content_frame"
+            app:layout_anchorGravity="top|center" />
+
         <HorizontalScrollView
             android:scrollbars="none"
             android:id="@+id/scroll"
@@ -46,6 +57,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+
             </LinearLayout>
         </HorizontalScrollView>
         <LinearLayout
@@ -107,4 +119,5 @@
 
         </LinearLayout>
     </FrameLayout>
+
 </com.google.android.material.appbar.AppBarLayout>

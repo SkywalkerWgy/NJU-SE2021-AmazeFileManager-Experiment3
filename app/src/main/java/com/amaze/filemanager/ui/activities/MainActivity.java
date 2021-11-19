@@ -168,6 +168,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
+import android.widget.Button;
 import android.widget.Toast;
 
 import androidx.annotation.DrawableRes;
@@ -318,7 +319,6 @@ public class MainActivity extends PermissionsActivity
   public void onCreate(final Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.main_toolbar);
-
     intent = getIntent();
 
     dataUtils = DataUtils.getInstance();
@@ -395,6 +395,11 @@ public class MainActivity extends PermissionsActivity
               }
             });
     initStatusBarResources(findViewById(R.id.drawer_layout));
+  }
+
+  public void buttonTest(View view){
+    Intent intent = new Intent(MainActivity.this,button.class);
+    startActivity(intent);
   }
 
   private void invalidateFragmentAndBundle(Bundle savedInstanceState) {

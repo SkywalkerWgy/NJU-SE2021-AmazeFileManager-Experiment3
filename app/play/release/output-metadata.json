@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.amaze.filemanager",
+  "variantName": "playRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 97,
+      "versionName": "3.6.3",
+      "outputFile": "app-play-release.apk"
+    }
+  ]
+}

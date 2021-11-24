@@ -26,14 +26,16 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
                 android:text="@string/name"
-                android:textSize="@dimen/material_generic_title"/>
+                android:textColor="#FF0000"
+                android:textSize="@dimen/material_generic_title" />
 
             <TextView
                 android:id="@+id/t5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/calculating"
-                android:textSize="@dimen/material_generic_title_summary"/>
+                android:textColor="#FF0000"
+                android:textSize="@dimen/material_generic_title_summary" />
         </LinearLayout>
 
         <LinearLayout
@@ -51,14 +53,16 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
                 android:text="@string/location"
-                android:textSize="@dimen/material_generic_title"/>
+                android:textColor="#3F51B5"
+                android:textSize="@dimen/material_generic_title" />
 
             <TextView
                 android:id="@+id/t6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/calculating"
-                android:textSize="@dimen/material_generic_title_summary"/>
+                android:textColor="#3F51B5"
+                android:textSize="@dimen/material_generic_title_summary" />
         </LinearLayout>
 
         <LinearLayout
@@ -75,14 +79,16 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
                 android:text="@string/size_capitalized"
-                android:textSize="@dimen/material_generic_title"/>
+                android:textColor="#4CAF50"
+                android:textSize="@dimen/material_generic_title" />
 
             <TextView
                 android:id="@+id/t7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/calculating"
-                android:textSize="@dimen/material_generic_title_summary"/>
+                android:textColor="#4CAF50"
+                android:textSize="@dimen/material_generic_title_summary" />
         </LinearLayout>
 
         <LinearLayout
@@ -99,14 +105,16 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
                 android:text="@string/date"
-                android:textSize="@dimen/material_generic_title"/>
+                android:textColor="#FFEB3B"
+                android:textSize="@dimen/material_generic_title" />
 
             <TextView
                 android:id="@+id/t8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/calculating"
-                android:textSize="@dimen/material_generic_title_summary"/>
+                android:textColor="#FFEB3B"
+                android:textSize="@dimen/material_generic_title_summary" />
         </LinearLayout>
 
         <LinearLayout
@@ -123,14 +131,16 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
                 android:text="@string/md5"
-                android:textSize="@dimen/material_generic_title"/>
+                android:textColor="#673AB7"
+                android:textSize="@dimen/material_generic_title" />
 
             <TextView
                 android:id="@+id/t9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/calculating"
-                android:textSize="@dimen/material_generic_title_summary"/>
+                android:textColor="#673AB7"
+                android:textSize="@dimen/material_generic_title_summary" />
         </LinearLayout>
 
         <LinearLayout
@@ -147,14 +157,16 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-medium"
                 android:text="@string/hash_sha256"
-                android:textSize="@dimen/material_generic_title"/>
+                android:textColor="#FF9800"
+                android:textSize="@dimen/material_generic_title" />
 
             <TextView
                 android:id="@+id/t10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/calculating"
-                android:textSize="@dimen/material_generic_title_summary"/>
+                android:textColor="#FF9800"
+                android:textSize="@dimen/material_generic_title_summary" />
         </LinearLayout>
 
         <LinearLayout
